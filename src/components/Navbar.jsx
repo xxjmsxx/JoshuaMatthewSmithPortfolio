@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
   return (
-    <nav className={`${styles.paddingX} w-full items-center flex py-5 fixed top-0 z-20 bg-primary`}>
+    <nav className={`${styles.paddingX} w-full items-center flex py-5 xl:fixed lg:fixed top-0 z-20 bg-primary`}>
       <div className="flex items-center justify-between w-full max-w-7x1 mx-auto">
         <Link
           to="/"
@@ -19,10 +19,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
 
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-          Joshua Smith &nbsp;
-          <span className='sm:block hidden'>| Website</span></p>
+          <img src={logo} alt="logo" className='w-12 h-12 object-contain'/>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex pl-3'><span><em>Welcome stranger!</em></span>&nbsp;Feel free to "move" around</p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
