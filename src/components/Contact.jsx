@@ -93,7 +93,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your emessage?"
+              placeholder="What's your email?"
               className="bg-tertiary rounded-lg py-4 px-6
               text-white outlined-none border-none font-medium
               placeholder:text-secondary"
