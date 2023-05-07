@@ -17,7 +17,7 @@ const FeedbackCard = ({ index, name, testimonial, company , image,
         <p className='text-white tracking-wider
         text-[18px]'>
           {testimonial}
-          </p>
+        </p>
 
         <div className='mt-7 flex justify-between
         items-center gap-1'>

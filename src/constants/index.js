@@ -1,5 +1,6 @@
 import {
   james,
+  sebi,
   mobile,
   backend,
   creator,
@@ -20,6 +21,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  lewagon,
   carrent,
   jobit,
   tripguide,
@@ -143,16 +145,16 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Teacher/Teacher Assistant",
+    company_name: "Le Wagon",
+    icon: lewagon,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led coding bootcamps in web development, database management, and user experience design at Lewagon.",
+      "Strengthened my proficiency in programming languages such as Ruby, Ruby on Rails, and JavaScript while teaching others",
+      "Worked in a collaborative team environment, collaborating with other instructors to develop and refine the curriculum",
+      "Provided personalized feedback to students and often refactored their code, improving my ability to communicate technical concepts and solidifying my understanding of these languages",
     ],
   },
   {
@@ -173,7 +175,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Joshua was a valuable Fullstack Developer on our team at Lofft, consistently demonstrating strong technical skills and an excellent work ethic. I highly recommend Joshua to anyone seeking a skilled and dedicated developer.",
+      "As a Fullstack Developer on our team at Lofft, Joshua consistently demonstrated strong technical capabilities and an excellent work ethic. I highly recommend him to anyone seeking a skilled and dedicated developer.",
     name: "James Hibbeard",
     designation: "Founder",
     company: "Lofft",
@@ -181,11 +183,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    "Joshua showed exceptional problem solving skills and a collaborative mindset during his time at LeWagon. He would make a valuable contribution to any team",
+    name: "Sebastian Remm",
+    designation: "Batch Manager",
+    company: "Le Wagon",
+    image: sebi,
   },
   {
     testimonial:
