@@ -1,10 +1,15 @@
 import {
+  // feedback pictures
   james,
   sebi,
+
+  // service icons
   mobile,
   backend,
   creator,
   web,
+
+  // tech icons
   javascript,
   typescript,
   html,
@@ -17,15 +22,21 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  threejs,
+
+  // jobs icons
   lewagon,
+  lofft,
+  lfj,
+
+  //extras
+  construction,
+
+  // projects
   carrent,
   jobit,
-  tripguide,
-  threejs,
+  tripguide
+
 } from "../assets";
 
 export const navLinks = [
@@ -119,33 +130,19 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    company_name: "Lofft",
+    icon: lofft,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Extensive experience in developing frontend technologies, particularly React, React Native, and Redux, as well as developing backend APIs with Ruby on Rails (originally Firebase)",
+      "Conducting thorough testing of programs and databases to identify issues early and proactively make necessary changes.",
+      "Designing, developing, and implementing robust, scalable software applications for apps and websites based on carefully analyzed requirements and a deep understanding of industry-standard technical practices.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Teacher/Teacher Assistant",
+    title: "Teacher/Teaching Assistant for #1 Code Bootcamp",
     company_name: "Le Wagon",
     icon: lewagon,
     iconBg: "#383E56",
@@ -158,18 +155,21 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Currently under construction\n(Please touch the tape to see application)",
+    company_name: "*insert your company name*",
+    icon: lfj,
+    iconBg: "#383E56",
+    tape: construction,
+    textColor: "#00CEA8",
+    date: "As soon as possible",
+    iconBg: "#383E56",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I'd make a great addition to the team because I'm a hard worker who is passionate about what I do.",
+      "I'm a fast learner and I'm always looking for ways to improve my skills.",
+      "I'm passionate about mentoring and collaborating with teams to achieve successful outcomes. My skills in providing clear feedback and supporting my peers demonstrate my potential for continued growth within any development team.",
+      "I have a habit of bringing baked goods to the office(so I might bring some to the interview!)",
     ],
-  },
+  }
 ];
 
 const testimonials = [

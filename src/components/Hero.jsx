@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-
+import { TypeAnimation } from 'react-type-animation';
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
 
@@ -11,10 +11,26 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
-
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#00cea8]'> Josh</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I am a Fullstack Developer <br className='sm:block hidden'/><em>aka. Wizard</em></p>
+          <TypeAnimation
+              sequence={[
+                1000,
+                "",
+                1000,
+                "Hi,", // Types 'One'
+                1000, // Waits 1s
+                "Hi, I'm Joshua", // Deletes 'One' and types 'Two'
+                3000, //
+                () => {
+                  console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+                }
+              ]}
+              wrapper="span"
+              cursor={true}
+              repeat={Infinity}
+              style={{fontSize: 80, fontWeight: 700, color: '#00CEA8' }}
+            />
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>A Fullstack Developer <br className='sm:block hidden'/><em>aka. Wizard</em></p>
         </div>
       </div>
 

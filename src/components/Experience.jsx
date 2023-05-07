@@ -1,5 +1,6 @@
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import { VerticalTimeline, VerticalTimelineElement, VerticalTimelineElementProps  } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
+import { TypeAnimation } from 'react-type-animation';
 
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -9,11 +10,18 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+  const titleLines = experience.title.split("\n");
+
+    <div>
+
+    </div>
+
   return (
     <VerticalTimelineElement
-      contentStyle={{ background: '#1d1836', color: '#fff' }}
-      contentArrowStyle={{ borderRight: '7px solid  #232631' }}
-      date={experience.date}
+      contentStyle={{ background: '#1d1836'}}
+      contentArrowStyle={{ borderRight: '7px solid  #00CEA8' }}
+      style={{ color: '#00CEA8' }}
+      date={experience.date}VerticalTimelineElementProps
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
@@ -22,18 +30,32 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-        <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0}}>
+        {experience.tape && (
+          <img src={experience.tape} alt={experience.company_name}
+            className="absolute inset-0 object-fit-cover w-full h-[85%]"
+            style={{ transition: 'opacity 0.2s ease-in-out' }}
+            onMouseOver={(e) => { e.currentTarget.style.opacity = 0 }}
+            onMouseLeave={(e) => { e.currentTarget.style.opacity = 1 }}
+          />
+        )}
+        <div className="relative z-10">
+        <h2 className="font-bold text-white">
           {experience.company_name}
-        </p>
+        </h2>
+        <h3 className={experience.textColor === "#00CEA8" ? "text-red-400 font-bold text-[14px]" : "text-white"}>
+          {titleLines[0]}
+        </h3>
+        <h4 className={experience.textColor === "#00CEA8" ? "text-[#00CEA8] text-[14px]" : "text-white"}>
+            {titleLines[1]}
+        </h4>
+        </div>
       </div>
 
       <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point, index) => (
           <li
-          key={index}
-          className="text-white-100 text-[14px]
-          pl-1 tracking-wider"
+            key={index}
+            className="text-white-100 text-[14px] pl-1 tracking-wider"
           >
             {point}
           </li>
@@ -42,8 +64,6 @@ const ExperienceCard = ({ experience }) => {
     </VerticalTimelineElement>
   )
 };
-
-
 const Experience = () => {
   console.log(experiences);
 
