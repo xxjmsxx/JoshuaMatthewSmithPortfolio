@@ -114,6 +114,9 @@
   -webkit-text-fill-color: transparent;
 }
 
+.vertical-timeline-element-content h2 {
+  color: #00CEA8;
+}
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
