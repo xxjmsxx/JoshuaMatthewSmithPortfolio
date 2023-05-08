@@ -2,6 +2,7 @@ import {
   // feedback pictures
   james,
   sebi,
+  emptyprofile,
 
   // service icons
   mobile,
@@ -35,7 +36,7 @@ import {
   // projects
   carrent,
   jobit,
-  tripguide
+  FindMyMidwife,
 
 } from "../assets";
 
@@ -45,8 +46,12 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -155,8 +160,8 @@ const experiences = [
     ],
   },
   {
-    title: "Currently under construction\n(Please touch the tape to see application)",
-    company_name: "*insert your company name*",
+    title: "(Please touch the tape to see application)",
+    company_name: "⚠️Currently under construction⚠️",
     icon: lfj,
     iconBg: "#383E56",
     tape: construction,
@@ -191,15 +196,36 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "You could be the next person wanting to write a great testimonial for me!",
+    name: "You",
+    designation: "Your Role",
+    company: "Your Company",
+    image: emptyprofile,
   },
 ];
 
 const projects = [
+  {
+    name: "Find my Midwife",
+    description:
+      "A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
+    tags: [
+      {
+        name: "ruby",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "rails",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: FindMyMidwife,
+    source_code_link: "https://github.com/xxjmsxx/find_my_midwife",
+  },
   {
     name: "Car Rent",
     description:
@@ -240,27 +266,6 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];

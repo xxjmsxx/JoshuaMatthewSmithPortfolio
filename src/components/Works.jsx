@@ -27,17 +27,17 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         <img
           src={image}
           alt={name}
-          className='w-full h-full object-cover rounded-2xl'
+          className='w-full h-full object-cover rounded-2xl test'
         />
         <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
           <div
             onClick={() => window.open(source_code_link)}
-            className='black-gradient w-10 h-10
+            className='black-gradient github h-12
             rounded-full flex items-center
-            justify-center
-            cursor-poiunter'
+            cursor-pointer flex'
           >
-            <img src={github} alt='github' className='w-1/2 h-1/2 object-contain' />
+            <p className='github-text' style={{fontSize: 12}}>Go to Source code</p>
+            <img src={github} alt='github' className='w-1/6 h-1/6 object-contain pr-1' />
           </div>
         </div>
       </div>
@@ -89,4 +89,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

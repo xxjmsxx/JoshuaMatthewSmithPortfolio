@@ -10,11 +10,6 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
-  const titleLines = experience.title.split("\n");
-
-    <div>
-
-    </div>
 
   return (
     <VerticalTimelineElement
@@ -32,22 +27,19 @@ const ExperienceCard = ({ experience }) => {
       <div>
         {experience.tape && (
           <img src={experience.tape} alt={experience.company_name}
-            className="absolute inset-0 object-fit-cover w-full h-[85%]"
+            className="absolute pb-10 inset-0 object-fit-cover w-full h-full"
             style={{ transition: 'opacity 0.2s ease-in-out' }}
             onMouseOver={(e) => { e.currentTarget.style.opacity = 0 }}
             onMouseLeave={(e) => { e.currentTarget.style.opacity = 1 }}
           />
         )}
         <div className="relative z-10">
-        <h2 className="font-bold text-white">
+        <h2 className="text-white font-bold">
           {experience.company_name}
         </h2>
-        <h3 className={experience.textColor === "#00CEA8" ? "text-red-400 font-bold text-[14px]" : "text-white"}>
-          {titleLines[0]}
+        <h3 className={experience.textColor === "#00CEA8" ? "text-red-400 font-bold" : "text-white"}>
+          {experience.title}
         </h3>
-        <h4 className={experience.textColor === "#00CEA8" ? "text-[#00CEA8] text-[14px]" : "text-white"}>
-            {titleLines[1]}
-        </h4>
         </div>
       </div>
 
@@ -85,4 +77,4 @@ const Experience = () => {
   )
 }
 
-export default SectionWrapper(Experience, "work")
+export default SectionWrapper(Experience, "experience")

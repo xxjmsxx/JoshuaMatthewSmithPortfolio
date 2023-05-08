@@ -9,6 +9,7 @@ import close from "./close.svg";
 
 import james from "./testmonials/james.png";
 import sebi from "./testmonials/sebi.png";
+import emptyprofile from "./testmonials/emptyprofile.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -32,7 +33,7 @@ import lfj from "./company/lfj.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import FindMyMidwife from "./projects/FindMyMidwife.png";
 
 export {
   logo,
@@ -61,8 +62,9 @@ export {
   lfj,
   carrent,
   jobit,
-  tripguide,
   james,
   sebi,
-  construction
+  emptyprofile,
+  construction,
+  FindMyMidwife,
 };

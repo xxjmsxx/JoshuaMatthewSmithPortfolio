@@ -19,6 +19,43 @@
   display: block;
 }
 
+.github {
+  width: 47px;
+  transition: width 1s;
+}
+
+.github img {
+  position: absolute;
+}
+
+.github:hover {
+  width: 160px;
+  transition: width 0.8s;
+}
+
+.github-text {
+  opacity: 0;
+  transition: opacity 2s;
+  visibility: hidden;
+  white-space: nowrap;
+}
+
+.blink {
+  animation: blinker 2.4s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.github:hover .github-text {
+  opacity: 2;
+  visibility: visible;
+  padding-left: 42px;
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
