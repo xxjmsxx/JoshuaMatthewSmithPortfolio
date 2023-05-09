@@ -28,4 +28,6 @@ Contact Me
 In this section, you'll find my contact information, including my email address, phone number, and social media profiles. You can use this section to get in touch with me or to hire me for your next project.
 
 Feel free to explore my portfolio and reach out to me if you have any questions or comments. Thank you for visiting my page!
-![WebPage](https://github.com/xxjmsxx/JoshuaMatthewSmithPortfolio/assets/111142848/5e1e1b25-5a67-4c16-bf00-9f57bc7cb6bd)
+
+
+![WebPage](https://github.com/xxjmsxx/JoshuaMatthewSmithPortfolio/assets/111142848/eafcd570-6484-4315-9ca9-c7c3a675fd9c)
