@@ -30,4 +30,4 @@ In this section, you'll find my contact information, including my email address,
 Feel free to explore my portfolio and reach out to me if you have any questions or comments. Thank you for visiting my page!
 
 
-![WebPage](https://github.com/xxjmsxx/JoshuaMatthewSmithPortfolio/assets/111142848/eafcd570-6484-4315-9ca9-c7c3a675fd9c)
+![WebPage](https://github.com/xxjmsxx/JoshuaMatthewSmithPortfolio/assets/111142848/fa440a70-620f-422c-a7bf-a2c02b49ea7e)
