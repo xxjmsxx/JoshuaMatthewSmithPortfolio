@@ -1,5 +1,5 @@
 <h1>Joshua Matthew Smith Portfolio</ph1>
-<h2>Available at: Joshuamattewsmithportfolio.web.app</h2>
+<h2>Available at: <a href="Joshuamattewsmithportfolio.web.app" /></h2>
 
 <h3>This is my portfolio website where you can find my latest projects, skills, and experiences. The website is built using HTML, CSS, and JavaScript and is hosted using GitHub Pages.</h3>
 
