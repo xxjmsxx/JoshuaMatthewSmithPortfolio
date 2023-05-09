@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Joshua Matthew Smith Portfolio</title>
-</head>
 <body>
   <h1>Joshua Matthew Smith Portfolio</h1>
   <h2><a href="Joshuamattewsmithportfolio.web.app">Click here to go to portfolio website!</a></h2>
