@@ -2,62 +2,6 @@
 <html>
 <head>
   <title>Joshua Matthew Smith Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.5;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 20px;
-    }
-
-    h2 {
-      font-size: 2em;
-      margin-bottom: 15px;
-    }
-
-    h3, h4 {
-      font-size: 1.5em;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 1.2em;
-      margin-bottom: 10px;
-    }
-
-    a {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    h2 a:hover {
-      text-decoration: none;
-    }
-
-    h4 {
-      margin-top: 40px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    ul li {
-      margin-bottom: 5px;
-    }
-  </style>
 </head>
 <body>
   <h1>Joshua Matthew Smith Portfolio</h1>
