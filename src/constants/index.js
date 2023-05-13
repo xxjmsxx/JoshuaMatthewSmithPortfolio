@@ -196,10 +196,10 @@ const testimonials = [
   },
   {
     testimonial:
-      "You could be the next person wanting to write a great testimonial for me!",
-    name: "You",
-    designation: "Your Role",
-    company: "Your Company",
+      "An exceptional young man who I guarantee, will overcome any challenge you throw at him!",
+    name: "My Mom",
+    designation: "Mom",
+    company: "My House",
     image: emptyprofile,
   },
 ];
@@ -208,7 +208,7 @@ const projects = [
   {
     name: "Find my Midwife",
     description:
-      "A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
+      "A web-app used to simplify the process of finding midwives in d your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
     tags: [
       {
         name: "ruby",
