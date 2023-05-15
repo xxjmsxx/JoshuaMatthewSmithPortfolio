@@ -35,7 +35,7 @@ import {
 
   // projects
   carrent,
-  jobit,
+  hoobank,
   FindMyMidwife,
 
 } from "../assets";
@@ -195,36 +195,58 @@ const testimonials = [
     image: sebi,
   },
   {
-    testimonial:
-      "An exceptional young man who I guarantee, will overcome any challenge you throw at him!",
-    name: "My Mom",
-    designation: "Mom",
-    company: "My House",
+    testimonial: "We haven't gotten a chance to write this testimonial yet, but rest assured it's going to be amazing. Maybe even better than the previous ones (if that's even possible).",
+    name: "The Soon-to-Be Impressed Client",
+    designation: "Executive",
+    company: "TBD",
     image: emptyprofile,
-  },
+    }
 ];
 
 const projects = [
+  {
+    name: "HooBank",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hoobank,
+    source_code_link: "https://github.com/xxjmsxx/JMSBank",
+    page_link: "https://jmsbank-a2012.web.app/"
+  },
   {
     name: "Find my Midwife",
     description:
       "A web-app used to simplify the process of finding midwives in d your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
     tags: [
       {
-        name: "ruby",
+        name: "Rails",
         color: "pink-text-gradient",
       },
       {
-        name: "rails",
+        name: "SQL",
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "CSS",
         color: "blue-text-gradient",
       },
     ],
     image: FindMyMidwife,
     source_code_link: "https://github.com/xxjmsxx/find_my_midwife",
+    page_link: "http://www.findmymidwife.de/"
   },
   {
     name: "Car Rent",
@@ -246,27 +268,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    page_link: "hhttp://www.findmymidwife.de/"
   },
 ];
 

@@ -32,7 +32,7 @@ import lofft from "./company/lofft.png";
 import lfj from "./company/lfj.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import hoobank from "./hoobank.png";
 import FindMyMidwife from "./projects/FindMyMidwife.png";
 
 export {
@@ -61,10 +61,10 @@ export {
   lofft,
   lfj,
   carrent,
-  jobit,
   james,
   sebi,
   emptyprofile,
   construction,
   FindMyMidwife,
+  hoobank,
 };
