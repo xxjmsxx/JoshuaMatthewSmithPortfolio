@@ -207,7 +207,7 @@ const projects = [
   {
     name: "HooBank",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Explore a modern banking experience designed with you in mind. Our intuitive platform offers a range of features and tools to help you manage your finances seamlessly. Discover our innovative approach to banking today.",
     tags: [
       {
         name: "React",
@@ -229,7 +229,7 @@ const projects = [
   {
     name: "Find my Midwife",
     description:
-      "A web-app used to simplify the process of finding midwives in d your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
+      "A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
     tags: [
       {
         name: "Rails",
