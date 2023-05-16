@@ -210,11 +210,11 @@ const projects = [
     "Explore a modern banking experience designed with you in mind. Our intuitive platform offers a range of features and tools to help you manage your finances seamlessly. Discover our innovative approach to banking today.",
     tags: [
       {
-        name: "React",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -229,18 +229,18 @@ const projects = [
   {
     name: "Find my Midwife",
     description:
-      "A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
+      "My first ever project. A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
     tags: [
       {
-        name: "Rails",
+        name: "rails",
         color: "pink-text-gradient",
       },
       {
-        name: "SQL",
+        name: "sql",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "css",
         color: "blue-text-gradient",
       },
     ],
