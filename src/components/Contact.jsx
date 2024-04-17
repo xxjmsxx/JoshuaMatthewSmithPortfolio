@@ -52,11 +52,10 @@ const Contact = () => {
 
       console.log(error);
 
-      alert('Something went wrong.');
+      alert('Oops, something went wrong. Please try again later!');
     })
   };
 
-  "[Your name] was a valuable Fullstack Developer on our team at Lofft, consistently demonstrating strong technical skills and an excellent work ethic. I highly recommend [your name] to anyone seeking a skilled and dedicated developer."
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse
     flex gap-10 overflow-hidden'>
