@@ -34,7 +34,6 @@ import {
   construction,
 
   // projects
-  carrent,
   hoobank,
   FindMyMidwife,
 
