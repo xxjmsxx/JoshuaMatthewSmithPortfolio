@@ -173,7 +173,7 @@ const experiences = [
   },
   {
     title: "(Please touch the tape to see application)",
-    company_name: "⚠️Currently under construction⚠️",
+    company_name: "⚠️ Currently under construction ⚠️",
     icon: lfj,
     iconBg: "#383E56",
     tape: construction,
