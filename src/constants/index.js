@@ -1,6 +1,6 @@
 import {
   // feedback pictures
-  james,
+  nina,
   sebi,
   emptyprofile,
 
