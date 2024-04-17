@@ -30,6 +30,7 @@ import construction from "./construction.png";
 import lewagon from "./company/lewagon.png";
 import lofft from "./company/lofft.png";
 import lfj from "./company/lfj.png";
+import minime from "./company/minime.png";
 
 import carrent from "./carrent.png";
 import hoobank from "./hoobank.png";
@@ -60,6 +61,7 @@ export {
   lewagon,
   lofft,
   lfj,
+  minime,
   carrent,
   james,
   sebi,

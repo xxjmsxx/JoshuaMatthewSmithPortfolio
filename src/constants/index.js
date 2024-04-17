@@ -29,6 +29,7 @@ import {
   lewagon,
   lofft,
   lfj,
+  minime,
 
   //extras
   construction,
@@ -135,18 +136,18 @@ const technologies = [
 const experiences = [
   {
     title: "Full Stack Developer",
-    company_name: "Lofft",
-    icon: lofft,
+    company_name: "Minime GmbH",
+    icon: minime,
     iconBg: "#383E56",
-    date: "Jan 2023 - Present",
+    date: "Aug 2023 - Mar 2024",
     points: [
-      "Extensive experience in developing frontend technologies, particularly React, React Native, and Redux, as well as developing backend APIs with Ruby on Rails (originally Firebase)",
-      "Conducting thorough testing of programs and databases to identify issues early and proactively make necessary changes.",
-      "Designing, developing, and implementing robust, scalable software applications for apps and websites based on carefully analyzed requirements and a deep understanding of industry-standard technical practices.",
+      "Collaborating closely with a senior developer in a small startup to build innovative features for a therapy modernization app, employing Ruby on Rails and JavaScript (Stimulus) to craft a user-friendly interface and enrich user experiences.",
+      "Taking charge of complete feature development from idea to deployment, enhancing user experience by implementing features like mobile analysis writing to replace paper methods, improving accessibility for patients.",
+      "Working closely with the design team to ensure the user experience was optimized, incorporating feedback and iterating on designs to achieve the best possible user interaction.",
     ],
   },
   {
-    title: "Teacher/Teaching Assistant for #1 Code Bootcamp",
+    title: "Teacher/Teaching Assistant",
     company_name: "Le Wagon",
     icon: lewagon,
     iconBg: "#383E56",
@@ -156,6 +157,18 @@ const experiences = [
       "Strengthened my proficiency in programming languages such as Ruby, Ruby on Rails, and JavaScript while teaching others",
       "Worked in a collaborative team environment, collaborating with other instructors to develop and refine the curriculum",
       "Provided personalized feedback to students and often refactored their code, improving my ability to communicate technical concepts and solidifying my understanding of these languages",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Lofft",
+    icon: lofft,
+    iconBg: "#383E56",
+    date: "Jan 2023 - Jun 2023",
+    points: [
+      "Extensive experience in developing frontend technologies, particularly React, React Native, and Redux, as well as developing backend APIs with Ruby on Rails (originally Firebase)",
+      "Conducting thorough testing of programs and databases to identify issues early and proactively make necessary changes.",
+      "Worked within a close-knit team to assess the next strategic steps aimed at optimizing user experience and enhancing the overall functionality of the application."
     ],
   },
   {
@@ -171,7 +184,7 @@ const experiences = [
       "I'd make a great addition to the team because I'm a hard worker who is passionate about what I do.",
       "I'm a fast learner and I'm always looking for ways to improve my skills.",
       "I'm passionate about mentoring and collaborating with teams to achieve successful outcomes. My skills in providing clear feedback and supporting my peers demonstrate my potential for continued growth within any development team.",
-      "I have a habit of bringing baked goods to the office(so I might bring some to the interview!)",
+      "I have a habit of bringing baked goods to the office",
     ],
   }
 ];
