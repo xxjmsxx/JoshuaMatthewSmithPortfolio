@@ -181,9 +181,9 @@ const experiences = [
     date: "As soon as possible",
     iconBg: "#383E56",
     points: [
-      "I'd make a great addition to the team because I'm a hard worker who is passionate about what I do.",
-      "I'm a fast learner and I'm always looking for ways to improve my skills.",
-      "I'm passionate about mentoring and collaborating with teams to achieve successful outcomes. My skills in providing clear feedback and supporting my peers demonstrate my potential for continued growth within any development team.",
+      "I'm a hard worker who is very passionate about what I do.",
+      "I'm fast learner and I'm always looking for ways to improve my skills.",
+      "My best skill is collaborating within teams to achieve successful outcomes",
       "I have a habit of bringing baked goods to the office",
     ],
   }
@@ -192,11 +192,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "As a Fullstack Developer on our team at Lofft, Joshua consistently demonstrated strong technical capabilities and an excellent work ethic. I highly recommend him to anyone seeking a skilled and dedicated developer.",
-    name: "James Hibbeard",
+      "As a Fullstack Developer on our team at Minime, Joshua consistently demonstrated strong technical capabilities and an excellent work ethic. I highly recommend him to anyone seeking a skilled and dedicated developer.",
+    name: "Nina Hackenbroich",
     designation: "Founder",
-    company: "Lofft",
-    image: james,
+    company: "Minime GmbH",
+    image: nina,
   },
   {
     testimonial:

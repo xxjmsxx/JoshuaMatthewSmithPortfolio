@@ -7,8 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import james from "./testmonials/james.png";
 import sebi from "./testmonials/sebi.png";
+import nina from "./testmonials/Nina.jpg";
 import emptyprofile from "./testmonials/emptyprofile.png";
 
 import css from "./tech/css.png";
@@ -63,7 +63,7 @@ export {
   lfj,
   minime,
   carrent,
-  james,
+  nina,
   sebi,
   emptyprofile,
   construction,
