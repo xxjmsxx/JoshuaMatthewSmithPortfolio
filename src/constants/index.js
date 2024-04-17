@@ -141,9 +141,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2023 - Mar 2024",
     points: [
-      "Collaborating closely with a senior developer in a small startup to build innovative features for a therapy modernization app, employing Ruby on Rails and JavaScript (Stimulus) to craft a user-friendly interface and enrich user experiences.",
-      "Taking charge of complete feature development from idea to deployment, enhancing user experience by implementing features like mobile analysis writing to replace paper methods, improving accessibility for patients.",
-      "Working closely with the design team to ensure the user experience was optimized, incorporating feedback and iterating on designs to achieve the best possible user interaction.",
+      "Collaborated on building innovative features for a therapy modernization app, using Ruby on Rails and JavaScript for a user-friendly interface.",
+      "Led feature development from idea to deployment, enhancing user experience with mobile analysis writing and improved accessibility.",
+      "Worked closely with the design team to optimize user experience, incorporating feedback for the best interaction."
     ],
   },
   {
