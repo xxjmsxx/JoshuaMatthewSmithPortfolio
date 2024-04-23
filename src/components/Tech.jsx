@@ -16,7 +16,6 @@ const Tech = () => {
           </div>
         ))}
       </div>
-      {/* Make a reset button that will slowly make all the balls roll back to the orginal position
       <div className="mt-20 flex justify-center">
         <button
           type='submit'
@@ -27,8 +26,7 @@ const Tech = () => {
         >
           Reset
         </button>
-
-      </div>*/}
+      </div>
     </div>
   )
 }

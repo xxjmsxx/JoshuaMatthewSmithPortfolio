@@ -77,9 +77,7 @@ const Works = () => {
           className="mt-3 text-secondary
           text-[17px] max-w-3xl leading-[30px]"
         >
-          I have worked on a wide range of projects, including
-          websites, web applications, and mobile applications.
-          Here are a few of my favorites.
+          I've been involved in a mix of projects, including health apps, tools for apartment hunting, and some personal projects of mine. Here are a few of my favorites.
         </motion.p>
       </div>
 
