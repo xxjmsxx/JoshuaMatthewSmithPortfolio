@@ -219,7 +219,7 @@ const projects = [
   {
     name: "HooBank",
     description:
-    "Explore a modern banking experience designed with you in mind. Our intuitive platform offers a range of features and tools to help you manage your finances seamlessly. Discover our innovative approach to banking today.",
+    "Explore a modern banking experience. This project is designed mainly as a Frontend Project where the design was my main focus over the functionality. The project was built using React, Firebase and TailwindCSS. The project is still under development and will be updated regularly.",
     tags: [
       {
         name: "react",
