@@ -35,6 +35,7 @@ import minime from "./company/minime.png";
 import carrent from "./carrent.png";
 import hoobank from "./hoobank.png";
 import FindMyMidwife from "./projects/FindMyMidwife.png";
+import minimeProject from "./projects/minimeProject.png";
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   emptyprofile,
   construction,
   FindMyMidwife,
+  minimeProject,
   hoobank,
 };

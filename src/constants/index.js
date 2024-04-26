@@ -37,6 +37,7 @@ import {
   // projects
   hoobank,
   FindMyMidwife,
+  minimeProject,
 
 } from "../assets";
 
@@ -217,9 +218,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "HooBank",
+    name: "Minime GmbH",
+    project_type: "Work",
     description:
-    "Explore a modern banking experience. This project is designed mainly as a Frontend Project where the design was my main focus over the functionality. The project was built using React, Firebase and TailwindCSS. The project is still under development and will be updated regularly.",
+    "Helped create a diverse range of therapy materials, digitized and presented in a playful format within a single, collaborative app, revolutionizing therapy resources for a more engaging and effective experience.",
+    tags: [
+      {
+        name: "ruby on rails",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "heroku",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: minimeProject,
+    source_code_link: "",
+    page_link: "https://www.minime.health/"
+  },
+  {
+    name: "HooBank",
+    project_type: "Personal",
+    description:
+    "Explore a modern banking experience. This project is designed mainly as a Frontend Project where the design was my main focus over the functionality. The project was built using React, Firebase and TailwindCSS.",
     tags: [
       {
         name: "react",
@@ -240,6 +265,7 @@ const projects = [
   },
   {
     name: "Find my Midwife",
+    project_type: "Personal",
     description:
       "My first ever project. A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
     tags: [

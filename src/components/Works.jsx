@@ -8,7 +8,7 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link, page_link }) => {
+const ProjectCard = ({ index, name, project_type, description, tags, image, source_code_link, page_link }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", 0.5 * index, 0.75)}
@@ -32,21 +32,24 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
           alt={name}
           className='w-full h-full object-cover rounded-2xl test'
         />
-        <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-          <div
-            onClick={() => window.open(source_code_link)}
-            className='black-gradient github h-12
-            rounded-full flex items-center
-            cursor-pointer flex'
-          >
-            <p className='github-text' style={{fontSize: 12}}>Go to Source code</p>
-            <img src={github} alt='github' className='w-1/6 h-1/6 object-contain pr-1' />
+        {source_code_link !== "" && (
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+            <div
+              onClick={() => window.open(source_code_link)}
+              className='black-gradient github h-12 rounded-full flex items-center cursor-pointer'
+            >
+              <p className='github-text' style={{ fontSize: 12 }}>Go to Source code</p>
+              <img src={github} alt='github' className='w-1/6 h-1/6 object-contain pr-1' />
+            </div>
           </div>
-        </div>
+        )}
       </div>
 
       <div className='mt-5'>
-        <h3 className='text_white font-bold text-[24px]'>{name}</h3>
+        <div className="d-flex">
+          <h3 className='text_white font-bold text-[24px]'>{name}</h3>
+          <p className='text_white text-[14px]'>{project_type}</p>
+        </div>
         <p className='mt-2 text-secondary text-[14px]'>{description}</p>
       </div>
 
