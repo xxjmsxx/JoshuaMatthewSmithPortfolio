@@ -74,7 +74,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Baker",
+    title: "Teacher/Teaching Assistant",
     icon: creator,
   },
 ];

@@ -55,7 +55,7 @@ const About = () => {
         I'm a Fullstack Developer with a passion for creating
         beautiful and functional web applications. I have
         experience with a wide range of technologies and
-        frameworks, including React, Node, SQL, MongoDB,
+        frameworks, including Rails, Node, SQL, MongoDB,
         and more. I'm always looking to learn new things and
         improve my skills.
       </motion.p>
