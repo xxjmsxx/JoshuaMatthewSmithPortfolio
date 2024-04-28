@@ -66,15 +66,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Team Player",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Fast Learner",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Baker",
     icon: creator,
   },
 ];
@@ -224,8 +224,8 @@ const projects = [
     "Helped create a diverse range of therapy materials, digitized and presented in a playful format within a single, collaborative app, revolutionizing therapy resources for a more engaging and effective experience.",
     tags: [
       {
-        name: "ruby on rails",
-        color: "blue-text-gradient",
+        name: "rails",
+        color: "pink-text-gradient",
       },
       {
         name: "heroku",
@@ -233,7 +233,7 @@ const projects = [
       },
       {
         name: "scss",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: minimeProject,
@@ -248,7 +248,7 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "firebase",
@@ -256,7 +256,7 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: hoobank,
