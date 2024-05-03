@@ -2,6 +2,7 @@ import {
   // feedback pictures
   nina,
   sebi,
+  ypfm,
   emptyprofile,
 
   // service icons
@@ -209,10 +210,10 @@ const testimonials = [
   },
   {
     testimonial: "Josh has effectively streamlined operations for our annual Baseballcamp by implementing multiple software solutions. This has not only alleviated workload burdens but has also facilitated the creation of fairer and more competitive teams. Additionally, it has afforded me the opportunity to redirect my focus towards more important aspects of the camp.",
-    name: "Yannick ",
+    name: "Yannick Matthias",
     designation: "Camp Lead",
     company: "EFG Herford",
-    image: emptyprofile,
+    image: ypfm,
     }
 ];
 
@@ -267,7 +268,7 @@ const projects = [
     name: "Find my Midwife",
     project_type: "Personal",
     description:
-      "My first ever project. A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
+      "My first ever project created at LeWagon. A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
     tags: [
       {
         name: "rails",

@@ -9,6 +9,7 @@ import close from "./close.svg";
 
 import sebi from "./testmonials/sebi.png";
 import nina from "./testmonials/Nina.jpg";
+import ypfm from "./testmonials/yannickMatthias.jpeg"
 import emptyprofile from "./testmonials/emptyprofile.png";
 
 import css from "./tech/css.png";
@@ -66,6 +67,7 @@ export {
   carrent,
   nina,
   sebi,
+  ypfm,
   emptyprofile,
   construction,
   FindMyMidwife,
