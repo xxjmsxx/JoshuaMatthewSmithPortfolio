@@ -202,7 +202,7 @@ const testimonials = [
   },
   {
     testimonial:
-    "Joshua showed exceptional problem solving skills and a collaborative mindset during his time at LeWagon. He would make a valuable contribution to any team",
+    "Joshua showed exceptional problem solving skills and a collaborative mindset during his time at LeWagon. He would make a valuable contribution to any team.",
     name: "Sebastian Remm",
     designation: "Batch Manager",
     company: "Le Wagon",
