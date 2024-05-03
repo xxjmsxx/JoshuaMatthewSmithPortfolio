@@ -193,7 +193,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "As a Fullstack Developer on our team at Minime, Joshua consistently demonstrated strong technical capabilities and an excellent work ethic. I highly recommend him to anyone seeking a skilled and dedicated developer.",
+      "It's been awesome having Josh on the minime team! He's a quick learner and a talented full-stack Ruby on Rails developer who's always up for a challenge. Josh has a knack for coming up with creative solutions and loves diving into new features and challenges. He's not only reliable and committed but also made our project better with his proactive style. Highly recommend him if you’re looking for someone who’s ready to jump in and make an immediate impact!",
     name: "Nina Hackenbroich",
     designation: "Founder",
     company: "Minime GmbH",
@@ -208,10 +208,10 @@ const testimonials = [
     image: sebi,
   },
   {
-    testimonial: "We haven't gotten a chance to write this testimonial yet, but rest assured it's going to be amazing. Maybe even better than the previous ones (if that's even possible).",
-    name: "The Soon-to-Be Impressed Client",
-    designation: "Executive",
-    company: "TBD",
+    testimonial: "Josh has effectively streamlined operations for our annual Baseballcamp by implementing multiple software solutions. This has not only alleviated workload burdens but has also facilitated the creation of fairer and more competitive teams. Additionally, it has afforded me the opportunity to redirect my focus towards more important aspects of the camp.",
+    name: "Yannick ",
+    designation: "Camp Lead",
+    company: "EFG Herford",
     image: emptyprofile,
     }
 ];
