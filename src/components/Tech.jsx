@@ -17,7 +17,7 @@ const Tech = () => {
         ))}
       </div>
       <div className="mt-20 flex justify-center">
-        <button
+        {/* <button
           type='submit'
           className='bg-[#00cea8] py-3 px-8
           outline-none w-fit text-white
@@ -25,7 +25,7 @@ const Tech = () => {
           rounded-2xl'
         >
           Reset
-        </button>
+        </button> */}
       </div>
     </div>
   )

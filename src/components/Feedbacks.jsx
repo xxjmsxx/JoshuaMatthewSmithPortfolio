@@ -63,7 +63,16 @@ const Feedbacks = () => {
       </div>
       <div>
         <div>
-          <Carousel selectedItem={currentIndex} showStatus={false} interval={3000} infiniteLoop autoPlay>
+          <Carousel
+            selectedItem={currentIndex}
+            showStatus={false}
+            interval={6000}
+            transitionTime={1500}
+            infiniteLoop
+            autoPlay
+            swipeable={true}
+            emulateTouch
+          >
             {testimonials.map((testimonial, index) => (
               <FeedbackCard key={testimonial.name} {...testimonial} />
             ))}

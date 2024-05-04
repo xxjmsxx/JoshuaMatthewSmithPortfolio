@@ -63,19 +63,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Engineer",
     icon: web,
+  },
+  {
+    title: "Creative Problem Solver",
+    icon: backend,
   },
   {
     title: "Team Player",
     icon: mobile,
   },
   {
-    title: "Fast Learner",
-    icon: backend,
-  },
-  {
-    title: "Teacher/Teaching Assistant",
+    title: "Content Creator",
     icon: creator,
   },
 ];
@@ -201,6 +201,13 @@ const testimonials = [
     image: nina,
   },
   {
+    testimonial: "Josh has effectively streamlined operations for our annual Baseballcamp by implementing multiple software solutions. This has not only alleviated workload burdens but has also facilitated the creation of fairer and more competitive teams. Additionally, it has afforded me the opportunity to redirect my focus towards more important aspects of the camp.",
+    name: "Yannick Matthias",
+    designation: "Camp Lead",
+    company: "EFG Herford",
+    image: ypfm,
+  },
+  {
     testimonial:
     "Joshua showed exceptional problem solving skills and a collaborative mindset during his time at LeWagon. He would make a valuable contribution to any team.",
     name: "Sebastian Remm",
@@ -208,13 +215,6 @@ const testimonials = [
     company: "Le Wagon",
     image: sebi,
   },
-  {
-    testimonial: "Josh has effectively streamlined operations for our annual Baseballcamp by implementing multiple software solutions. This has not only alleviated workload burdens but has also facilitated the creation of fairer and more competitive teams. Additionally, it has afforded me the opportunity to redirect my focus towards more important aspects of the camp.",
-    name: "Yannick Matthias",
-    designation: "Camp Lead",
-    company: "EFG Herford",
-    image: ypfm,
-    }
 ];
 
 const projects = [
