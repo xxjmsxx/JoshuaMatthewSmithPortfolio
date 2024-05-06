@@ -264,29 +264,29 @@ const projects = [
     source_code_link: "https://github.com/xxjmsxx/JMSBank",
     page_link: "https://jmsbank-a2012.web.app/"
   },
-  {
-    name: "Find my Midwife",
-    project_type: "Personal",
-    description:
-      "My first ever project created at LeWagon. A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
-    tags: [
-      {
-        name: "rails",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "sql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: FindMyMidwife,
-    source_code_link: "https://github.com/xxjmsxx/find_my_midwife",
-    page_link: "http://www.findmymidwife.de/"
-  },
+  // {
+  //   name: "Find my Midwife",
+  //   project_type: "Personal",
+  //   description:
+  //     "My first ever project created at LeWagon. A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
+  //   tags: [
+  //     {
+  //       name: "rails",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "sql",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: FindMyMidwife,
+  //   source_code_link: "https://github.com/xxjmsxx/find_my_midwife",
+  //   page_link: "http://www.findmymidwife.de/"
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
