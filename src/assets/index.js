@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import sebi from "./testmonials/sebi.png";
+import emma from "./testmonials/emma.jpg";
 import nina from "./testmonials/Nina.jpg";
 import ypfm from "./testmonials/yannickMatthias.jpeg"
 import emptyprofile from "./testmonials/emptyprofile.png";
@@ -67,6 +68,7 @@ export {
   carrent,
   nina,
   sebi,
+  emma,
   ypfm,
   emptyprofile,
   construction,

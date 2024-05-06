@@ -2,6 +2,7 @@ import {
   // feedback pictures
   nina,
   sebi,
+  emma,
   ypfm,
   emptyprofile,
 
@@ -199,6 +200,14 @@ const testimonials = [
     designation: "Founder",
     company: "Minime GmbH",
     image: nina,
+  },
+  {
+    testimonial:
+    "Joshua is one of the very best! Nothing short of professional, well spoken and an overachieving developer who will always try and figure out a solution. Thank you for everything you've done for us, Josh!",
+    name: "Emma Anna Agneta Rünzel",
+    designation: "Batch Manager",
+    company: "Le Wagon",
+    image: emma,
   },
   {
     testimonial: "Josh has effectively streamlined operations for our annual Baseballcamp by implementing multiple software solutions. This has not only alleviated workload burdens but has also facilitated the creation of fairer and more competitive teams. Additionally, it has afforded me the opportunity to redirect my focus towards more important aspects of the camp.",
