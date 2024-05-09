@@ -150,7 +150,7 @@ const experiences = [
     ],
   },
   {
-    title: "Teacher/Teaching Assistant",
+    title: "Teaching Assistant",
     company_name: "Le Wagon",
     icon: lewagon,
     iconBg: "#383E56",
