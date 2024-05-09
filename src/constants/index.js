@@ -39,6 +39,7 @@ import {
   // projects
   hoobank,
   FindMyMidwife,
+  baseballcamp,
   minimeProject,
 
 } from "../assets";
@@ -272,6 +273,28 @@ const projects = [
     image: hoobank,
     source_code_link: "https://github.com/xxjmsxx/JMSBank",
     page_link: "https://jmsbank-a2012.web.app/"
+  },
+  {
+    name: "Team Builder Baseball Camp",
+    project_type: "Personal",
+    description:
+    "This software focuses on crafting balanced, dynamic and inclusive teams for an enhanced camp experience, lightening the work load on Camp Leaders",
+    tags: [
+      {
+        name: "rails",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: baseballcamp,
+    source_code_link: "https://github.com/xxjmsxx/TeamBuilderBaseballCamp"
   },
   // {
   //   name: "Find my Midwife",

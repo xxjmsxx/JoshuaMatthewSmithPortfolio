@@ -36,6 +36,7 @@ import minime from "./company/minime.png";
 
 import carrent from "./carrent.png";
 import hoobank from "./hoobank.png";
+import baseballcamp from "./projects/baseballcamp.png"
 import FindMyMidwife from "./projects/FindMyMidwife.png";
 import minimeProject from "./projects/minimeProject.png";
 
@@ -66,6 +67,7 @@ export {
   lfj,
   minime,
   carrent,
+  baseballcamp,
   nina,
   sebi,
   emma,
