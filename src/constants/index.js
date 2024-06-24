@@ -324,7 +324,7 @@ const projects = [
   },
   {
     name: "Team Builder Baseball Camp",
-    project_type: "Personal",
+    project_type: "Work",
     description:
       "This software focuses on crafting balanced, dynamic and inclusive teams for an enhanced camp experience, lightening the work load on Camp Leaders",
     tags: [

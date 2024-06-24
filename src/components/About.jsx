@@ -74,7 +74,8 @@ const About = () => {
             "CV - Joshua Smith.pdf"
           )
         }
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 mr-2"
+        className=" text-white font-bold py-2 px-4 rounded mt-4 mr-2"
+        style={{ backgroundColor: "#00cea8" }}
       >
         Download my CV
       </motion.button>
@@ -87,7 +88,8 @@ const About = () => {
             "Arbeitszeugnis - Joshua Smith.pdf"
           )
         }
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
+        className="text-white font-bold py-2 px-4 rounded mt-4"
+        style={{ backgroundColor: "#00cea8" }}
       >
         Download references
       </motion.button>
