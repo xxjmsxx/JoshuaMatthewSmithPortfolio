@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import { motion } from 'framer-motion';
+import React, { useState } from "react";
+import { Carousel } from "react-responsive-carousel";
+import { motion } from "framer-motion";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { SectionWrapper } from '../hoc';
-import { fadeIn, textVariant } from '../utils/motion';
-import { testimonials } from '../constants';
+import { SectionWrapper } from "../hoc";
+import { fadeIn, textVariant } from "../utils/motion";
+import { testimonials } from "../constants";
 
 const FeedbackCard = ({ name, testimonial, company, image, designation }) => {
   return (
     <motion.div
       className="bg-black-200 rounded-[20px] p-10 w-full h-full flex flex-col justify-between"
-      variants={fadeIn('', 'spring', 0.5, 0.75)}
+      variants={fadeIn("", "spring", 0.5, 0.75)}
     >
       <p className="text-white font-black text-[48px]">"</p>
 
@@ -57,8 +57,12 @@ const Feedbacks = () => {
     <div className="mt-12 bg-black-100 rounded-[20px]">
       <div className="p-8 bg-tertiary rounded-2xl min-h-[125px] flex justify-start">
         <motion.div variants={textVariant()}>
-          <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">What others say</p>
-          <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Testimonials.</h2>
+          <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
+            What others say
+          </p>
+          <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+            Testimonials.
+          </h2>
         </motion.div>
       </div>
       <div>
@@ -72,6 +76,7 @@ const Feedbacks = () => {
             autoPlay
             swipeable={true}
             emulateTouch
+            showThumbs={false}
           >
             {testimonials.map((testimonial, index) => (
               <FeedbackCard key={testimonial.name} {...testimonial} />

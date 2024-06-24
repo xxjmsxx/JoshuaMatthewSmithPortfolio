@@ -10,7 +10,7 @@ import close from "./close.svg";
 import sebi from "./testmonials/sebi.png";
 import emma from "./testmonials/emma.jpg";
 import nina from "./testmonials/Nina.jpg";
-import ypfm from "./testmonials/yannickMatthias.jpeg"
+import ypfm from "./testmonials/yannickMatthias.jpeg";
 import emptyprofile from "./testmonials/emptyprofile.png";
 
 import css from "./tech/css.png";
@@ -36,9 +36,11 @@ import minime from "./company/minime.png";
 
 import carrent from "./carrent.png";
 import hoobank from "./hoobank.png";
-import baseballcamp from "./projects/baseballcamp.png"
+import baseballcamp from "./projects/baseballcamp.webp";
 import FindMyMidwife from "./projects/FindMyMidwife.png";
 import minimeProject from "./projects/minimeProject.png";
+import planyourplants from "./projects/planyourplants.webp";
+import planyourplantsapi from "./projects/planyourplantsapi.webp";
 
 export {
   logo,
@@ -77,4 +79,6 @@ export {
   FindMyMidwife,
   minimeProject,
   hoobank,
+  planyourplants,
+  planyourplantsapi,
 };

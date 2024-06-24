@@ -41,7 +41,8 @@ import {
   FindMyMidwife,
   baseballcamp,
   minimeProject,
-
+  planyourplants,
+  planyourplantsapi,
 } from "../assets";
 
 export const navLinks = [
@@ -96,45 +97,45 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
   // },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   // {
   //   name: "Three JS",
   //   icon: threejs,
   // },
   {
+    name: "docker",
+    icon: docker,
+  },
+  {
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "figma",
+    icon: figma,
+  },
 ];
 
 const experiences = [
@@ -147,7 +148,7 @@ const experiences = [
     points: [
       "Collaborated on building innovative features for a therapy modernization app, using Ruby on Rails and JavaScript for a user-friendly interface.",
       "Led feature development from idea to deployment, enhancing user experience with mobile analysis writing and improved accessibility.",
-      "Worked closely with the design team to optimize user experience, incorporating feedback for the best interaction."
+      "Worked closely with the design team to optimize user experience, incorporating feedback for the best interaction.",
     ],
   },
   {
@@ -155,7 +156,7 @@ const experiences = [
     company_name: "Le Wagon",
     icon: lewagon,
     iconBg: "#383E56",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - Jun 2024",
     points: [
       "Led coding bootcamps in web development, database management, and user experience design at Lewagon.",
       "Strengthened my proficiency in programming languages such as Ruby, Ruby on Rails, and JavaScript while teaching others",
@@ -168,11 +169,11 @@ const experiences = [
     company_name: "Lofft",
     icon: lofft,
     iconBg: "#383E56",
-    date: "Jan 2023 - Jun 2023",
+    date: "Jan 2023 - Jul 2023",
     points: [
       "Extensive experience in developing frontend technologies, particularly React, React Native, and Redux, as well as developing backend APIs with Ruby on Rails (originally Firebase)",
       "Conducting thorough testing of programs and databases to identify issues early and proactively make necessary changes.",
-      "Worked within a close-knit team to assess the next strategic steps aimed at optimizing user experience and enhancing the overall functionality of the application."
+      "Worked within a close-knit team to assess the next strategic steps aimed at optimizing user experience and enhancing the overall functionality of the application.",
     ],
   },
   {
@@ -190,7 +191,7 @@ const experiences = [
       "My best skill is collaborating within teams to achieve successful outcomes",
       "I have a habit of bringing baked goods to the office",
     ],
-  }
+  },
 ];
 
 const testimonials = [
@@ -204,14 +205,15 @@ const testimonials = [
   },
   {
     testimonial:
-    "Joshua is one of the very best! Nothing short of professional, well spoken and an overachieving developer who will always try and figure out a solution. Thank you for everything you've done for us, Josh!",
+      "Joshua is one of the very best! Nothing short of professional, well spoken and an overachieving developer who will always try and figure out a solution. Thank you for everything you've done for us, Josh!",
     name: "Emma Anna Agneta Rünzel",
     designation: "Batch Manager",
     company: "Le Wagon",
     image: emma,
   },
   {
-    testimonial: "Josh has effectively streamlined operations for our annual Baseballcamp by implementing multiple software solutions. This has not only alleviated workload burdens but has also facilitated the creation of fairer and more competitive teams. Additionally, it has afforded me the opportunity to redirect my focus towards more important aspects of the camp.",
+    testimonial:
+      "Josh has effectively streamlined operations for our annual Baseballcamp by implementing multiple software solutions. This has not only alleviated workload burdens but has also facilitated the creation of fairer and more competitive teams. Additionally, it has afforded me the opportunity to redirect my focus towards more important aspects of the camp.",
     name: "Yannick Matthias",
     designation: "Camp Lead",
     company: "EFG Herford",
@@ -219,7 +221,7 @@ const testimonials = [
   },
   {
     testimonial:
-    "Joshua showed exceptional problem solving skills and a collaborative mindset during his time at LeWagon. He would make a valuable contribution to any team.",
+      "Joshua showed exceptional problem solving skills and a collaborative mindset during his time at LeWagon. He would make a valuable contribution to any team.",
     name: "Sebastian Remm",
     designation: "Batch Manager",
     company: "Le Wagon",
@@ -232,7 +234,7 @@ const projects = [
     name: "Minime GmbH",
     project_type: "Work",
     description:
-    "Helped create a diverse range of therapy materials, digitized and presented in a playful format within a single, collaborative app, revolutionizing therapy resources for a more engaging and effective experience.",
+      "Helped create a diverse range of therapy materials, digitized and presented in a playful format within a single, collaborative app, revolutionizing therapy resources for a more engaging and effective experience.",
     tags: [
       {
         name: "rails",
@@ -249,13 +251,59 @@ const projects = [
     ],
     image: minimeProject,
     source_code_link: "",
-    page_link: "https://www.minime.health/"
+    page_link: "https://www.minime.health/",
+  },
+  {
+    name: "Plan Your Plants",
+    project_type: "Personal",
+    description:
+      "This is a React-side of personal project I started for my Mom, she wanted something to track all of her gardening needs. It utilizes a Rails backend API and Redux Statemangement. In the future I am planning on implementing Babylon.js for a 3D animated Garden that reacts to the health/weather data of the enviroment ",
+    tags: [
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: planyourplants,
+    source_code_link: "https://github.com/xxjmsxx/plan-your-plants",
+    page_link: "",
+  },
+  {
+    name: "Plan Your Plants API",
+    project_type: "Personal",
+    description:
+      "The Rails backend of the *Plan your Plants* project manages databases, user authentication, and server-side operations. It securely handles data with JWT tokens and provides API endpoints for seamless integration with the React frontend. This setup supports CRUD functionalities for managing gardens, plants, and user accounts, ensuring efficient and secure user interactions.",
+    tags: [
+      {
+        name: "rails",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rspec",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: planyourplantsapi,
+    source_code_link: "https://github.com/xxjmsxx/plan-your-plants-api",
+    page_link: "",
   },
   {
     name: "HooBank",
     project_type: "Personal",
     description:
-    "Explore a modern banking experience. This project is designed mainly as a Frontend Project where the design was my main focus over the functionality. The project was built using React, Firebase and TailwindCSS.",
+      "Explore a modern banking experience. This project is designed mainly as a Frontend Project where the design was my main focus over the functionality. The project was built using React, Firebase and TailwindCSS.",
     tags: [
       {
         name: "react",
@@ -271,14 +319,14 @@ const projects = [
       },
     ],
     image: hoobank,
-    source_code_link: "https://github.com/xxjmsxx/JMSBank",
-    page_link: "https://jmsbank-a2012.web.app/"
+    // source_code_link: "https://github.com/xxjmsxx/JMSBank",
+    page_link: "https://jmsbank-a2012.web.app/",
   },
   {
     name: "Team Builder Baseball Camp",
     project_type: "Personal",
     description:
-    "This software focuses on crafting balanced, dynamic and inclusive teams for an enhanced camp experience, lightening the work load on Camp Leaders",
+      "This software focuses on crafting balanced, dynamic and inclusive teams for an enhanced camp experience, lightening the work load on Camp Leaders",
     tags: [
       {
         name: "rails",
@@ -294,31 +342,32 @@ const projects = [
       },
     ],
     image: baseballcamp,
-    source_code_link: "https://github.com/xxjmsxx/TeamBuilderBaseballCamp"
+    page_link: "",
+    // source_code_link: "https://github.com/xxjmsxx/TeamBuilderBaseballCamp",
   },
-  // {
-  //   name: "Find my Midwife",
-  //   project_type: "Personal",
-  //   description:
-  //     "My first ever project created at LeWagon. A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
-  //   tags: [
-  //     {
-  //       name: "rails",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "sql",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: FindMyMidwife,
-  //   source_code_link: "https://github.com/xxjmsxx/find_my_midwife",
-  //   page_link: "http://www.findmymidwife.de/"
-  // },
+  {
+    name: "Find my Midwife",
+    project_type: "Personal",
+    description:
+      "My first ever project created at LeWagon. A web-app used to simplify the process of finding midwives in your area. This app was built using Ruby, Ruby on Rails and JavaScript. It also uses a MapboxApi for the midwives to plan their day.",
+    tags: [
+      {
+        name: "rails",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: FindMyMidwife,
+    source_code_link: "https://github.com/xxjmsxx/find_my_midwife",
+    page_link: "http://www.findmymidwife.de/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -14,7 +14,7 @@
 }
 
 .carousel img {
-  width: 100px!important;
+  width: 100px !important;
 }
 
 .hash-span {
@@ -25,7 +25,6 @@
 
 .github {
   width: 47px;
-  transition: width 1s;
 }
 
 .github img {
@@ -57,7 +56,11 @@
 .github:hover .github-text {
   opacity: 2;
   visibility: visible;
-  padding-left: 42px;
+  padding-left: 25px;
+}
+
+.github:hover img {
+  visibility: hidden;
 }
 
 .black-gradient {
@@ -156,7 +159,7 @@
 }
 
 .vertical-timeline-element-content h2 {
-  color: #00CEA8;
+  color: #00cea8;
 }
 /* canvas- styles */
 .canvas-loader {
