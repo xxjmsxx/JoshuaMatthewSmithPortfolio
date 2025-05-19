@@ -19,13 +19,18 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import psql from "./tech/psql.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import rails from "./tech/rails.png";
+import mongodb from "./tech/mongodb.png";
+import nodejs from "./tech/nodejs.png";
+import neo4j from "./tech/neo4j.png";
+import redis from "./tech/redis.png";
 
 import construction from "./construction.png";
 
@@ -41,6 +46,8 @@ import FindMyMidwife from "./projects/FindMyMidwife.png";
 import minimeProject from "./projects/minimeProject.png";
 import planyourplants from "./projects/planyourplants.webp";
 import planyourplantsapi from "./projects/planyourplantsapi.webp";
+import endpointEngine from "./projects/endpointEngine.png";
+import Endpoint from "./projects/Endpoint.png";
 
 export {
   logo,
@@ -61,8 +68,13 @@ export {
   nodejs,
   reactjs,
   redux,
+  neo4j,
+  redis,
+  python,
+  rails,
   tailwind,
   typescript,
+  psql,
   threejs,
   lewagon,
   lofft,
@@ -76,9 +88,11 @@ export {
   ypfm,
   emptyprofile,
   construction,
+  endpointEngine,
   FindMyMidwife,
   minimeProject,
   hoobank,
   planyourplants,
   planyourplantsapi,
+  Endpoint,
 };

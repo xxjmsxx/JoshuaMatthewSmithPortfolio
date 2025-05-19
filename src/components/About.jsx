@@ -26,7 +26,7 @@ const ServiceCard = ({ title, icon, index }) => {
           flex-col justify-evenly
           items-center"
         >
-          <h1 className="text-[40px]">{icon}</h1>
+          <img src={icon} alt={title} className="w-20 h-20 mb-4" />
           <h3
             className="text-white text-[20px]
           font-bold text-center"

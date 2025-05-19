@@ -14,18 +14,18 @@ import {
 
   // tech icons
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
   docker,
-  threejs,
+  python,
+  rails,
+  psql,
+  redis,
+  neo4j,
 
   // jobs icons
   lewagon,
@@ -40,9 +40,11 @@ import {
   hoobank,
   FindMyMidwife,
   baseballcamp,
+  endpointEngine,
   minimeProject,
   planyourplants,
   planyourplantsapi,
+  Endpoint,
 } from "../assets";
 
 export const navLinks = [
@@ -66,79 +68,54 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Creative Problem Solver",
-    icon: "🎨",
+    title: "Innovative Problem Solving",
+    icon: "/assets/creative.png",
   },
   {
-    title: "Commitment to Quality Assurance",
-    icon: "✅",
+    title: "Quality Assurance Excellence",
+    icon: "/assets/quality.png",
   },
   {
-    title: "Strong Communication Skills",
-    icon: "🗣️",
+    title: "Effective Communication",
+    icon: "/assets/communication.png",
   },
   {
-    title: "Adaptable to New Technologies",
-    icon: "💡",
+    title: "Adaptability and Growth",
+    icon: "/assets/adaptability.png",
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  { name: "Rails", icon: rails },
+  { name: "React JS", icon: reactjs },
+  { name: "Python", icon: python },
+  { name: "Postgres", icon: psql },
+  { name: "Docker", icon: docker },
+  { name: "Neo4j", icon: neo4j },
+  { name: "Redis", icon: redis },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
 ];
 
 const experiences = [
+  {
+    title: "Founding Engineer",
+    company_name: "Endpoint",
+    icon: Endpoint,
+    iconBg: "#383E56",
+    date: "July 2024 - Present",
+    points: [
+      "Architected and developed Endpoint Engine, a next-generation cohort retrieval and medical data analysis system, inspired by Manus and tailored to healthcare research.",
+      "Designed and implemented a custom agent framework integrating Python, FastAPI, and LLM tools like Gemini for multi-step reasoning, autonomous task execution, and narrative data analysis.",
+      "Built multiple subsystems, including a local synthetic data engine, knowledge graph-powered data discovery tool, and medical cohort analysis platform with step-wise task planning and automated report generation.",
+      "Pioneered agentic workflows for medical data pipelines, leveraging FAISS, Neo4j, and PostgreSQL for efficient, context-aware information retrieval.",
+      "Developed a real-time thread management system for task tracking, memory management, and tool execution, allowing for complex, multi-stage medical data analysis.",
+      "Continuously improved the platform by integrating user feedback, optimizing query performance, and extending support for medical cohort comparisons, narrative synthesis, and exploratory data analysis.",
+      "Currently extending the system to support clinical trial recruitment, real-world evidence generation, and automated medical literature review.",
+    ],
+  },
   {
     title: "Full Stack Developer",
     company_name: "Minime GmbH",
@@ -158,10 +135,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2023 - Jun 2024",
     points: [
-      "Led coding bootcamps in web development, database management, and user experience design at Lewagon.",
-      "Strengthened my proficiency in programming languages such as Ruby, Ruby on Rails, and JavaScript while teaching others",
-      "Worked in a collaborative team environment, collaborating with other instructors to develop and refine the curriculum",
-      "Provided personalized feedback to students and often refactored their code, improving my ability to communicate technical concepts and solidifying my understanding of these languages",
+      "Led coding bootcamps in web development, database management, and user experience design at Le Wagon.",
+      "Strengthened my proficiency in programming languages such as Ruby, Ruby on Rails, and JavaScript while teaching others.",
+      "Worked in a collaborative team environment, collaborating with other instructors to develop and refine the curriculum.",
+      "Provided personalized feedback to students and often refactored their code, improving my ability to communicate technical concepts and solidifying my understanding of these languages.",
     ],
   },
   {
@@ -171,27 +148,27 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2023 - Jul 2023",
     points: [
-      "Extensive experience in developing frontend technologies, particularly React, React Native, and Redux, as well as developing backend APIs with Ruby on Rails (originally Firebase)",
-      "Conducting thorough testing of programs and databases to identify issues early and proactively make necessary changes.",
+      "Extensive experience in developing frontend technologies, particularly React, React Native, and Redux, as well as developing backend APIs with Ruby on Rails (originally Firebase).",
+      "Conducted thorough testing of programs and databases to identify issues early and proactively make necessary changes.",
       "Worked within a close-knit team to assess the next strategic steps aimed at optimizing user experience and enhancing the overall functionality of the application.",
     ],
   },
-  {
-    title: "(Please touch the tape to see application)",
-    company_name: "⚠️ Currently under construction ⚠️",
-    icon: lfj,
-    iconBg: "#383E56",
-    tape: construction,
-    textColor: "#00CEA8",
-    date: "As soon as possible",
-    iconBg: "#383E56",
-    points: [
-      "I'm a hard worker who is very passionate about what I do.",
-      "I'm fast learner and I'm always looking for ways to improve my skills.",
-      "My best skill is collaborating within teams to achieve successful outcomes",
-      "I have a habit of bringing baked goods to the office",
-    ],
-  },
+  // {
+  //   title: "(Please touch the tape to see application)",
+  //   company_name: "⚠️ Currently under construction ⚠️",
+  //   icon: lfj,
+  //   iconBg: "#383E56",
+  //   tape: construction,
+  //   textColor: "#00CEA8",
+  //   date: "As soon as possible",
+  //   iconBg: "#383E56",
+  //   points: [
+  //     "I'm a hard worker who is very passionate about what I do.",
+  //     "I'm a fast learner and always looking for ways to improve my skills.",
+  //     "My best skill is collaborating within teams to achieve successful outcomes.",
+  //     "I have a habit of bringing baked goods to the office.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -232,7 +209,7 @@ const testimonials = [
 const projects = [
   {
     name: "Minime GmbH",
-    project_type: "Work",
+    project_type: "Professional",
     description:
       "Helped create a diverse range of therapy materials, digitized and presented in a playful format within a single, collaborative app, revolutionizing therapy resources for a more engaging and effective experience.",
     tags: [
@@ -252,6 +229,29 @@ const projects = [
     image: minimeProject,
     source_code_link: "",
     page_link: "https://www.minime.health/",
+  },
+  {
+    name: "Endpoint Engine",
+    project_type: "Professional",
+    description:
+      "Endpoint is a next-generation cohort retrieval and medical data analysis platform, designed for real-time, multi-step reasoning, task automation, and advanced data exploration. It powers healthcare insights through a custom agent framework integrating FAISS, Neo4j, FastAPI, and Python.",
+    tags: [
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Neo4j",
+        color: "green-text-gradient",
+      },
+      {
+        name: "LLM",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: endpointEngine,
+    page_link: "",
+    source_code_link: "https://github.com/xxjmsxx/EndpointEngine",
   },
   {
     name: "Plan Your Plants",
@@ -323,29 +323,6 @@ const projects = [
     page_link: "https://jmsbank-a2012.web.app/",
   },
   {
-    name: "Team Builder Baseball Camp",
-    project_type: "Work",
-    description:
-      "This software focuses on crafting balanced, dynamic and inclusive teams for an enhanced camp experience, lightening the work load on Camp Leaders",
-    tags: [
-      {
-        name: "rails",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "sql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: baseballcamp,
-    page_link: "",
-    // source_code_link: "https://github.com/xxjmsxx/TeamBuilderBaseballCamp",
-  },
-  {
     name: "Find my Midwife",
     project_type: "Personal",
     description:
@@ -366,7 +343,7 @@ const projects = [
     ],
     image: FindMyMidwife,
     source_code_link: "https://github.com/xxjmsxx/find_my_midwife",
-    page_link: "http://www.findmymidwife.de/",
+    page_link: "",
   },
 ];
 
